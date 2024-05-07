@@ -1,29 +1,37 @@
-#define Qi Qr(!aa)Qt(3<aa)
-#include"a.h"//[rrrtnnnn] bcieg At Cut Dot Equal Func Log Max Num Order Prod Q Res Sum Type Write B GHIJK UV [XYZ] complex(_-1 %-1)
-u strlen(const char*);long write(),read();int open(),close(),stat();void*memcpy(),*malloc(),free();G(mc,(u)memcpy(sa,sx,f))ns(w_,write(1,s,n))f(w,127>x?w_(1,&x):w_(strlen(sx),sx))
-Zu W;u(t_,ii=n<<lt[t];W+=i;ux=(u)malloc(8+i+1);*xU=t<<24|n<<32;x+8,it,un)f(_t,W-=Nx;free(sx-8);x)f(r_,Ax?x:(++xr,x))f(_r,Ax?x:b(24)&xr?(--xr,x):tx?_t(x):_(X(_r(xu))_t(x)))
-int sprintf(char*,const char*s,...);u($i,bs[12];k(sprintf(s,"%d",x),s),int x)u($e,bs[12];k(sprintf(s,"%g",x),s),float x)f(sb,in=0;X(n+=xc)n)
-iu(Ua,4>i?t(i,ix):te(ix))iu(Uv,c3(i-2,R2(xc),R3(xc),R4(xi)))
-F(vc,++W;sx[nx++]=a;x)F(V,_a(R(tx,na+nx,mc(Na,r,a);mc(Nx,r+Na,x))))F(_C,_x(R(2,0,X(r=vc(a,V(r,xu))))))G(c,R(tx,a,mc(a<<lx,r,x+(f<<lx))))
-f(ind,_x(R(3,sb(x),int*s=rI;X(if(xc)*s++=i))))F(C,_a(R0(c(xi,(i+1<nx?xI[i+1]:na)-xi-1,a))))f(C_,in=sx[nx-1];++xr;ua=R1(n==xc);a=_a(c(-1,na,a));*sa=1;C(x,ind(a)))
-iu(a,tx?t(tx,ci):r_(xu))u(e,R0(g(a(i,x))),_ g,ux)f(v,r(t_(ax,1),*rU=x))f(n,R(3,x,i(nr,ri=i)))iu(nz,R(ax,i,If(3>ax,i(nr,rc=ix))i(nr,ri=ix)))
-f($,px?k(1,"?"):ax?4>ax?$i(ix):$e(ex):lx?e($,x):2>tx?R2(48+xc):x)f($_,Ax||!lx?$(x):tx?_C(32,e($,x)):k(2,".."))f(wx,_x(w_(nx,sx)))f(w$,wx(Ax||tx?vc(10,$_(x)):_C(10,e($_,x))))
-#define pq(g,o) f(g,ax?_(x=4>ax?Ua(4,x):x;te(o(ex))):_(x=4>tx?Uv(4,x):x;R4(o(xe))))
-f(_s,ax?_(x=2>ax?Ua(2,x):x;t3(-ix,-ex)):_(x=2>tx?Uv(2,x):x;T3(-xc,-xi,-xe)))f(_e,ax?t(1,!ix):R1(ci))
-float sqrtf(float),logf(float);float rf(float x){return 1/x;}pq(_p,rf)pq(_q,sqrtf)pq(l,logf)
-#define SP(g,o) F(g,ax?aa?uu(c3(ax-2,tc(ia o ix),ti(ia o ix),te(ea o ex))):g(x,a):UU(c3(tx-2,R2(ai o xc),R3(ai o xi),R4(ae o xe))))
-#define ME(g,o) F(g,ax?aa?uu(t(1,ia o ix)):M==g?M(_s(x),_s(a)):g(x,a):UU(R1(ai o ci)))
-SP(S,+)SP(P,*)ME(M,>)ME(E,==)F(A,_a(_x(R(tx,nx,If(!lx,X(rc=aC[xi]))X(ri=aI[xi])))))F(err,w(a);w(58);w(x);w(10);Q)f(n_,Qr(!ax)Qt(3<ax)Qd(0>ix)n(ix))F(A_,Qr(aa)A(a,x))
-F(_A,Qr(aa)QZ)
-f(_n,Qr(ax)_x(ti(nx)))F(_N,Qi ax?nz(ia,x):_(Qd(ia>nx)A(x,n(ia))))F(N_,Qi QZ)f(f_,Qr(ax)A(x,R(3,nx,i(nx,ri=nx-1-i))))
-f(_v,Qr(ax)_x(t(tx,*xU)))F(V_,a=aa?v(a):a;x=ax?v(x):x;Qt(ta!=tx)_x(V(a,x)))
-F(_S,S(a,_s(x)))F(_P,P(a,_p(x)))F(_M,M(x,a))F(_E,_e(E(a,x)))f(d,QZ)f(F_,QZ)F(D,QZ)F(_$,QZ)F(_m,QZ)F(m_,QZ)f(U,QZ)f(o,QZ)f(_o,QZ)f(o_,_o(_e(x)))f(O,QZ)f(_O,QZ)
-Z_// +  - *  % &  |   < >  =  ~  $ . !  @   ?  # _  ^ ,  *exp %log &Flip |flop <asc >desc =group ?unique ^order (#= #'=)
-f[]={U,_s,_p,l,F_,f_,_o,o_,O,_e, $,d,n_,_v,_O,_n,_q,o,v },
-F[]={S,_S,P,_P,_m,m_,_M,M ,E,_E,_$,D,U ,A_,_A,_N,N_,U,V_};Zu G[26];ns(cs,ii=0;W(s[i])Pr(n==s[i++],i)0)
-f(z_,10>x-48?t(3,x-48):26>x-97?r_(G[x-97]):cs(x,"+-*%&|<>=~$.!@?#_^,"))s(z,ua=z_(*s++);!*s?a:x(z(s+!pa),Q(x)pa?f[a-1](x):F[z_(*s)-1](a,x)))Zu es();
-s(ps,i(13,in=cs(" \"`;()[]{}'/\\"[i],s);Pr(n--,w((u)s);w(10);wx(vc(94,nz(n,tc(32))));w(10);Q))(u)s)
-s(ws,ux=92==*s?(u)s:ps(s);Q(x)Q(x=es(sx))x?w$(x):0)s(ts,ux=ps(s);Q(x)in=1e6;uf=ut();i(n,Q(_r(es(sx))))ti((m(f,ut())-f)/eu-4*n/1e6))
-s(f1,ii[36];in=!stat(s,i)&&1&i[6]>>15?i[12]:0;Qs(!n,s)R(2,n,ii=open(s,0);read(i,r,n);close(i)))s(f0,ux=f1(s);Q(x)C_(x))s(ls,ux=f0(s);Q(x)ii=-1;W(++i<nx&&nxu)Q(ws(sxu))_x(0))
-s(es,92==*s?c4(cs(s[1],"ltw"),0,ls(s+3),ts(s+3),ti(W)):58==s[1]?_(u*a=G+*s-97;_r(*a);*a=z(s+2);0):z(s))
-int main(int _,char**a){If(*++a,ls(*a))w((u)"k/naif (c)atw "__DATE__),w(10);bs[64];W(1)w(32),s[read(0,s,64)-1]=0,*s?ws(s):0;}
+#include"a.h"//+-*%&|<>=~$,.!@?#_^ bcieE n[!@?#_^] !^?[n] (fgirstux;FGNPQRW)GQW AtCatType B D HIJKLM O S UV XYZ 
+void*malloc(),free();f(t_,(u)malloc(x))f(_t,free(sx);0)e expf(e),logf(e),sqrtf(e);Ze rf(ee)__(1/e)Ze(*e9[])(e)={expf,logf,sqrtf,rf};
+u(T,ii=n<<lt[t];W+=i;r(t_(8+8*n3(i)+7)+8,r8=t<<24|(u)n<<32),it,in)f(_T,W-=Nx;_t(x-8))f(r_,pax?x:(++xr,x))f(_r,pax?x:(1<<24)-1&xr?(--xr,0):_(if(!tx)N(_r(xu))_T(x)))
+g(nz,ua=5>ax?(_u)x:x;if(3>ax)(a|=a<<8,a|=a<<16);if(5>ax)a|=a<<32;R(ax,f,i(n3(Nr),ru=a)))f(c,R(ax,1,*(u*)r=x))F(C,_a(_x(R(tx,nx+na,dn(dn(r,Nx,x)+Nx,Na,a)))))
+g(cC,in=nx;N(n+=nu)_x(R(2,n,ua=r;N(a=dn(a,nu,xu)+nu;*sa=f;++a))))u(_c,dn(T(tx,n),n<<lx,x+(i<<lx)),int i,in,ux)f(pr,_x(_c(-1,nx,x)))F(_C,Tu(_c(xi,xi_-xi-1,a)))
+Ze e0=1+1e-6;S(c,*--t=c;t)S(s,*s?$c(*s,$s(s+1,t)):t)S(i,P(N&i,$c(45,$i(-i,t)))do*--t=48+i%10;W(i/=10);t) //_2=1.4142136,pi=3.1415927,qi=1.5707963
+S(e,ii=e0*e;0>e?$c(45,$e(-e,t)):e0-1>e?$c(48,t):1>e?$c(39,$e(1/e,t)):1e7>e?$i(i,eq(i)?t:$c(46,$i(.5+1e4*(e-i),t))):$s(1e39>e?"1e?":e==e?"inf":"nan",t))
+
+f($,P(px,ns(1,&":+-*%&|<>=~$,.!@?#_^"[x]))b64 st=b+64;ss=c3(ax-4,$e(ex,t),$e(ex,$c(58,$e(fx,t))),$i(ix,t));ns(t-s,s))
+g(a_,ii=f;tx?c4(lx,t(tx,xc),0,t(tx,xi),tE(xE)):r_(xu))f(kv,Tu(a_(i,x)))F(Cat,a=aa?c(a):a;x=ax?c(x):x;ta==tx?C(x,a):C(kv(x),kv(a)))
+f(ind,R(3,s_(x),int*s=(int*)sr;N(if(xc)*s++=i)))f(Cc,ua=pr(T0(1,x_==xc));*sa=1;_x(_C(x,_a(ind(a)))))g(a9,in=ix;R(3,N&n?-n:n,i(nr,ri=N&n?-n-1-i:i)))
+F(A_,_x(c4(la,T0(ta,sa[xi]),0,T2(ta,((int*)a)[xi]),T3(ta,((u*)a)[xi]))))f(rev,A_(x,a9(4,ti(-nx))))
+g(av,ax?c3(f-3,ti(ix),te(ix),tE(4>ax?ix:ex)):c3(f-3,Ti(xc),Te(xi),TE(4>tx?xi:xe)))
+//~+-.*%_'  2>f-7&&ti(-1)==x?tE(1&f?I:I*pi):
+g(b,Qz(1==f)ii=ax?:tx;P(!i,Tu(b(f,a_(i,x))))it=3>f?3:4;x=f&&t>i?av(t,x):x;
+ax?c5(f,tb(!ix),0,4>ax?ti(-ix):te(-ex),tE(I*ex),te(e9[f-4](ex))):c5(f,Tb(!xc),0,4>tx?Ti(-xi):Te(-xe),TE(I*xe),Te(e9[f-4](xe))))
+G(A,ii=aa?:ta;ij=ax?:tx;P(!i+!j,Tu(A(f,a,a_(i,x))))x=4>f&&3>j?av(j=3,x):x;a=i<j?av(j,a):a;x=i>j?av(i,x):x;
+ax?aa?c3(f/2,t3(+),t3(*),tb(b5(ia,ix))):A((2>f-6)^f,x,a):_a(c3(f/2,OT(+),OT(*),Tb(b5(ai,xi)))))
+
+g(prs,0)
+
+Zu z();G(AT,Qz(f)aa?2==aa?_(Qt(ax||2!=tx)prs(a,x)):A(2,a,x):_a(2==ta?(sa[na]=0,z(&x,sa)):ax?_(Qd(ix>=na)a_(ix,a)):tx?A_(a,x):QZ))
+F(Not,QZ)F(Str,QZ)F(Dot,QZ)g(ord,QZ)u(e1,Tu(b(a_(i,x))),_ b,ux)Zs r="`deghlmqrscbafnjpkio";//:,$ ~+-.*%_ @#&|!^?<>=
+g(j,f=r[f]&31;10>f?c4(f,x,c(x),ax?$(x):e1($,x),b(f-3,x)):ax?a9(f-10,x):_x(c6(f-10,a_(0,x),ti(nx),QZ,rev(x),ind(x),ord(f-15,x))))
+G(J,10>f?A(f-1,a,2==f?b(2,x):4==f?b(7,x):x):14>f?c4(f-10,Not,Str,Cat,Dot)(a,x):17>f?AT(f-15,a,x):_x(Qr(!aa)ax?nz(a,x):c3(f-17,_c(0,a,x),_c(a,nx-a,x),QZ)))
+
+long read(),write();int open(),close(),stat();G(_w,read(f,sa,x))G(w_,write(f,sa,x))F(f_,open(sa,x))f(_f,close(x))F(nf,stat(sa,sx))
+s(_1,ij[36];in=!nf((u)s,(u)j)&&1&j[O?1:6]>>15?j[O?24:12]:0;Qs(!n,s)R(2,n,ii=f_((u)s,0);_w(i,r,n);_f(i)))s(_0,X(_1(s),Qd(10!=x_)Cc(x)))
+Zu G[26],ys();f(_z,pax?$(x):2==tx?x:tx?cC(32,e1($,x)):s0(".."))f(w,127>x?w_(2,(u)&x,1):w_(2,x,sl(sx)))f(wx,x=cC(10,pax||tx?c(_z(x)):e1(_z,x));_x(w_(2,x,nx)))f(qa,26>x-97?x:0)
+#define _G (_&&3>a-'x'?_+a-120:G+a-97)//    !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~  {"0([.(: while if)
+u(v,qa(a)?r_(*_G):a,u*_,ua)f(q,"?o`rlefu??dbmcn?``````````a?hjiqp                          ?w?ts?``````````````````````````?g?k"[x-32]&31)s(qp,st=s-1;W(*++t)P(31==q(*t),err(0,(u)t))0)
+s(nt,st=s;ii=34==*s;W(*++t&&(i?34!=*t:(2>q(*t)||46==*t)));t+i-s)u(z_,34==*s?3==n?tc(s[1]):ns(n-2,s+1):n>is(58,n,s)?tE(E$(n,s)):n>is(46,n,s)?te(e$(n,s)):ti(i$(n,s)),in,ss)
+u(z,ua=q(*s);ii=1;a=a?a-1:qa(*s)?:z_(i=nt(s),s);s+=i;P(!*s,v(_,a))i=q(*s);X(z(_,s+(i&&!pa)),pa?j(a,x):1==i?(_r(*_G),*_G=x,0):i--?J(i,v(_,a),x):AT(0,v(_,a),x)),u*_,ss)
+s(zs,92==*s?ys(s+1):qp(s)?0:z(0,s))s(ws,ii=qa(*s);i&&32==s[1]?G[i-97]=s0(s+2):X(zs(s),x?wx(x):0))s(ls,X(_0(s),N(P(!nu,_x(0))if(su[nu]=0,39!=*su)Q(ws(su)))_x(0)))
+s(ts,ii=is(32,11,s);s[i]=0;in=i?z(0,s+1):1;s+=i+1;ua=ut()+30*n;i(n,Q(_r(zs(s))))ti((ut()-a)/et))s(ys,c4(is(*s,3,"ltw"),ls(s+2),ts(s+1),ti(W),s0(
+"+- *  %    &and  |or   <    >     =      ~ $,. !index @at ?find #take  _drop ^cut\n+- *e %log &flip |flop <asc >desc =group ~ $,. !index @at ?nub  #count _sqrt ^order")))
+int main(int _,char**a){*++a?ls(*a):w((u)"k/fun (c)atw "__DATE__"\n");b64 W(1)w(32),b[_w(0,(u)b,64)-1]=0,*b?ws(b):0;}
