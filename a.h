@@ -56,7 +56,7 @@ ZV I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27
 #define v1($,z) f($,tx?e(Q(x=$(  v_(x)))_v(x)):Tx?e(z):f1($,  x))
 #define V1($,z) F($,tx?e(Q(x=$(a,v_(x)))_v(x)):Tx?e(z):fr($,a,x))
 #define bu(f) __builtin_##f
-#define AN(f,s,x...) __attribute((naked))ZU f(x){asm(s);}
+#define AN(f,s,x...) __attribute((naked))U f(x){asm(s);}
 #define _W(z) ii=nx;W(i--){z;}
 #define Ui(g,z) U(g,z,ii)
 #define Us(g,z) U(g,z,ss)
@@ -136,9 +136,9 @@ ZV I0={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27
 #define x_ sx[nx-1]
 #define Zc static char
 #define Zu static u
-#define S(f,i) AN(f,"mov %rcx,%r10;mov $"#i",%rax;syscall;ret",Ux,...)
-void _start(){asm("lea 8(%rsp),%rsi;call main");}AN(ut,"rdtsc;shl $32,%rdx;or%rdx,%rax;ret")S(_w,0)S(w_,1)S(f_,2)S(_f,3)S(_l,4)S(m_,9)S(_k,60)
-Zc B=32;Zu n,A,M1=65535,N=1<<31,L[]={3,0,0,2,2,3},g=95<<23;static float E[]={1,10,100,1e3,1e4,1e5,1e6,1e7,1e8,1e9};Ui(tb,t(1,i))Ui(tc,t(2,i))Ui(ti,t(3,i))f(l2,64-lb(x-1))
+#define S(f,i) static AN(f,"mov %rcx,%r10;mov $"#i",%rax;syscall;ret",Ux,...)
+AN(_start,"lea 8(%rsp),%rsi;call main")AN(ut,"rdtsc;shl $32,%rdx;or%rdx,%rax;ret")S(_w,0)S(w_,1)S(f_,2)S(_f,3)S(_l,4)S(m_,9)S(_k,60)
+Zc*_P,B=32;Zu n,A,M1=65535,N=1<<31,L[]={3,0,0,2,2,3},g=95<<23;static float E[]={1,10,100,1e3,1e4,1e5,1e6,1e7,1e8,1e9};Ui(tb,t(1,i))Ui(tc,t(2,i))Ui(ti,t(3,i))f(l2,64-lb(x-1))
 ve(ue,*(u*)&e)ve(te,t(4,ue(e)))ve(eq,1-1e-6<e&&1+1e-6>e)f(qe,2==Tx&&32>x_%128)f(qf,!Tx&&qe(xx))g(tn,1==f?7+x>>3:x<<L[f])f(sb,ii=nx/64;if(nx%64)xU&=b(nx%64);r(0,N6(r+=nb(xU))))
 Ui(g_,ij=N&i;j>>2|b(29)&m(g,i)-g)f(G_,g_(x)|g_(x>>32)<<30)Ui(_g,ij=i&b(29);j?N&i<<2|j+g:0)f(_G,_g(x)|_g(x>>30)<<32)f(z4,64/4-lb(x)/4)f(q0,10>x-48)f(qa,26>x-97)
 Us(sl,ii=0;W(si)++i;i)Zs(ws,w_(2,(U)s,sl(s));s,ss)f(wc,w_(2,(U)&x,1))F(err,if(a)ws(sa);wc(58);ws(sx);wc(10);96)U(OO,ws("OO\n");_k(0))
@@ -157,7 +157,6 @@ U(dn,i(nN(n),rV=O)r+n,Ur,Un,Ux)U(is,i(nN(n),Ua=b_(c==O);P(a,l(n,n0*i+ib(a))))n,c
 #define ua x(a,ux)
 #define ea x(a,ex)
 #define Ta x(a,Tx)
-#define au_ (i+1<na?((u*)a)[i+1]:nx)
 #define Qz(e) Qs(e,"nyi")
 #define Qr(e) Qs(e,"rank")
 #define Qt(e) Qs(e,"type")
