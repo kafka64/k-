@@ -1,3 +1,3 @@
-default:
-	rm -f ./a
-	clang-13 -Os -oa a.c -fno-builtin -funsigned-char -ffast-math -fno-finite-math-only -fno-unwind-tables -Wno-incompatible-pointer-types -Wno-parentheses -mavx2 -mfma -mpclmul -mbmi2 -nostdlib
+k: a.[ch] makefile
+	clang-13 -Os -ok a.c -w -fno-builtin -funsigned-char -fno-unwind-tables -mavx2 -mfma -mpclmul -mbmi2 -nostdlib -s
+
